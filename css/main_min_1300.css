@@ -145,11 +145,11 @@
 
   .rotate-clock-img {
     opacity: 0.15;
-    animation: rotate_clock 50s linear infinite;
+    animation: rotate_img 50s linear infinite;
     transform-origin: 50% 50%;
   }
 
-  @keyframes rotate_clock {
+  @keyframes rotate_img {
     100% {
       transform: rotate(360deg);
     }
